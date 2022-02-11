@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.underline{
+    width: 100%;
+    height: 7px;
+    background-color: orangered;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    background: url(camera.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+.logo-name{
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+}
+.placeholder{
+    width: 300px;
+    height: 50px;
+    display: flex;
+}
+.placeholder input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 20px;
+    height: 100%;
+}
+.search-img{
+    width: 50px;
+    height: 50px;
+    left: 86%;
+    position: absolute;
+    background: url(search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+    gap: 60px;
+    justify-content: center;
+    width: 100%;
+}
+.item{
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    background-size: cover !important;
+}
